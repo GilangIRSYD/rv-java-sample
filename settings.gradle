@@ -1,0 +1,3 @@
+include ':recyclerviewapk'
+include ':app'
+rootProject.name = "ListViewAndRecycler"
