@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.strawberry
         };
 
+        // RecyclerView minimal membutuhkan SetAdapter dan setLayoutManager
         rvMain = findViewById(R.id.rv_main);
         RecyclerAdapter adapter = new RecyclerAdapter(namaBuah,gambarBuah);
         rvMain.setAdapter(adapter);
